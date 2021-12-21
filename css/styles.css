@@ -1,0 +1,39 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Roboto, sans-serif;
+}
+
+header,
+button {
+  background-color: #562b81;
+  color: white;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+h1,
+label {
+  font-weight: bold;
+}
+
+img,
+input,
+textarea {
+  border-radius: 4px;
+}
+
+input {
+  height: 40px;
+}
+
+textarea {
+  height: 149px;
+}
+
+button {
+  height: 35px;
+  width: 75px;
+  border-radius: 5px;
+}
