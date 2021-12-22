@@ -1,10 +1,10 @@
 /* global data */
 /* exported data */
-var $photoUrlInsert = document.getElementById('photoUrl');
+var $photoUrlInsert = document.querySelector('#photoUrl');
 var $image = document.querySelector('img');
 var $formEntire = document.querySelector('.form-entire');
-var $titleInsert = document.getElementById('title');
-var $notesInsert = document.getElementById('notes');
+var $titleInsert = document.querySelector('#title');
+var $notesInsert = document.querySelector('#notes');
 
 function insertNewPhoto(event) {
   var insertUrl = $photoUrlInsert.value;
