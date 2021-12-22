@@ -3,37 +3,45 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-header,
-button {
+.nav-bar-heading,
+.save-button {
   background-color: #562b81;
   color: white;
 }
 
-h3 {
+.nav-header {
   font-weight: lighter;
 }
 
-h1,
-label {
+.new-entry-header,
+.labels-for-new-entry {
   font-weight: bold;
 }
 
-img,
-input,
-textarea {
+.picture,
+.border-style, {
   border-radius: 4px;
 }
 
-input {
+.input-height {
   height: 40px;
 }
 
-textarea {
+.text-area-height {
   height: 149px;
 }
 
-button {
+.save-button {
   height: 35px;
   width: 75px;
   border-radius: 5px;
+}
+
+.border-style {
+  border: 1px solid #e5e5e5;
+  font-size: 18px;
+}
+
+.border-style:focus {
+  border: 1px solid rgb(255, 147, 255);
 }
