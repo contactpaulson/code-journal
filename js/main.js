@@ -2,6 +2,7 @@
 /* exported data */
 var $photoUrlInsert = document.getElementById('photoUrl');
 var $image = document.querySelector('img');
+var $formEntire = document.querySelector('.form-entire');
 
 function insertNewPhoto(event) {
   var insertUrl = $photoUrlInsert.value;
@@ -9,3 +10,8 @@ function insertNewPhoto(event) {
 }
 
 $photoUrlInsert.addEventListener('input', insertNewPhoto);
+
+function submitForm(event) {
+}
+
+$formEntire.addEventListener('submit', submitForm);
