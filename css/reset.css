@@ -15,9 +15,9 @@ textarea {
 }
 
 input:focus {
-  border: 1px solid rgb(255, 0, 255);
+  border: 1px solid rgb(255, 147, 255);
 }
 
 textarea:focus {
-  border: 1px solid rgb(255, 0, 255);
+  border: 1px solid rgb(255, 147, 255);
 }
