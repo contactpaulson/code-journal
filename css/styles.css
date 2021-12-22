@@ -1,0 +1,47 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Roboto, sans-serif;
+}
+
+.nav-bar-heading,
+.save-button {
+  background-color: #562b81;
+  color: white;
+}
+
+.nav-header {
+  font-weight: lighter;
+}
+
+.new-entry-header,
+.labels-for-new-entry {
+  font-weight: bold;
+}
+
+.picture,
+.border-style, {
+  border-radius: 4px;
+}
+
+.input-height {
+  height: 40px;
+}
+
+.text-area-height {
+  height: 149px;
+}
+
+.save-button {
+  height: 35px;
+  width: 75px;
+  border-radius: 5px;
+}
+
+.border-style {
+  border: 1px solid #e5e5e5;
+  font-size: 18px;
+}
+
+.border-style:focus {
+  border: 1px solid rgb(255, 147, 255);
+}

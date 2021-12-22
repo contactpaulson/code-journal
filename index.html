@@ -13,11 +13,56 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;1,100&family=Fredoka+One&family=Open+Sans+Condensed:ital,wght@1,300&family=Outfit:wght@200&family=PT+Sans+Caption:wght@700&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header class="nav-bar-heading">
+    <div class="container">
+      <div class="row">
+        <div class="column-full">
+          <h3 class="nav-header">Code Journal</h3>
+        </div>
+      </div>
+    </div>
   </header>
-  <main>
+
+  <main class="container">
+    <form action="type" data-view="entry-form" class="form-entire">
+      <div class="row">
+        <div class="column-full">
+          <h1 class="new-entry-header">New Entry</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-half">
+          <img src="images/placeholder-image-square.jpg" class="picture" alt="photo placeholder">
+        </div>
+
+        <div class="column-half">
+          <label class="labels-for-new-entry" for="title">Title</label>
+          <input class="border-style input-height" type="text" id="title" name="title" required="required">
+          <label class="labels-for-new-entry" for="photoUrl">Photo URL</label>
+          <input class="border-style input-height" type="text" id="photoUrl" name="image" required="required">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-full">
+          <label class="labels-for-new-entry" for="notes">Notes</label>
+          <textarea class="border-style text-area-height" name="notes" id="notes" cols="30" rows="10"></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-full button">
+          <button type="submit" class="save-button">SAVE</button>
+        </div>
+      </div>
+
+    </form>
   </main>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
