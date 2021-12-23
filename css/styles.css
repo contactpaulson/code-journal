@@ -18,10 +18,9 @@ body {
   font-weight: bold;
 }
 
-.picture,
-.border-style, {
+/* .border-style, {
   border-radius: 4px;
-}
+} */
 
 .input-height {
   height: 40px;
@@ -40,8 +39,33 @@ body {
 .border-style {
   border: 1px solid #e5e5e5;
   font-size: 18px;
+  border-radius: 4px;
 }
 
 .border-style:focus {
   border: 1px solid rgb(255, 147, 255);
+}
+
+.single-journal-entry {
+  /* background-image */
+
+  /* background-size */
+
+  /* background-position */
+
+  /* background-repeat */
+}
+
+.new-entry-header {
+  font-size: 32px;
+}
+
+.title-entries {
+  font-size: 22px;
+}
+
+.notes-entries {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 160%;
 }
