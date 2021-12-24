@@ -39,11 +39,10 @@
   margin-bottom: 20px;
 }
 
-.button {
+.save-button-position {
   display: flex;
   justify-content: flex-end;
-
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
   align-items: center;
 }
 
@@ -59,4 +58,10 @@
 
 .title-entries {
   margin: 0;
+}
+
+.entries-header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
